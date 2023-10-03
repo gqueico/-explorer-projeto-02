@@ -93,8 +93,8 @@ main p strong {
   font-weight: 700;
 }
 
-main button {
-  display: flex;
+main .button {
+  display: inline-flex;
   align-items: center;
   gap: 10px;
 
@@ -110,10 +110,11 @@ main button {
   color: #F9F9F9;
   background-color: #69B99D;
 
+  text-decoration: none;
   cursor: pointer;
 }
 
-main button:hover {
+main .button:hover {
   background-color: #4EA788;
 }
 
@@ -122,13 +123,13 @@ footer {
   text-align: center;
 }
 
-footer p {
+footer span {
   color: #000;
   font-size: 14px;
   line-height: 28px;
 }
 
-footer p a {
+footer span a {
   color: #000;
   font-weight: 700;
   text-decoration: none;
